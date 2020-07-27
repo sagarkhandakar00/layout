@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+/*common css start*/
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size:26px;
+	color: #2d3436;
+	text-align:center;
+	background: #ff7675;
+	padding:10px 0;
+	font-weight:700;
+	margin-bottom: 10px;
+}
+h2{
+	font-size:22px;
+	font-weight:600;
+	color:#353b48;
+	padding:0 20px;
+}
+/*common css end*/
+
+/*first layout start*/
+/*header area start*/
+.logo, .nav, .header-banner, .sidebar, .body, .footer, .header-banner2, .intro-text2, .footer2{
+	background:#dfe6e9;
+	padding:20px 0;
+	margin-bottom: 10px;
+}
+.nav h2, .sidebar h2, .body h2{
+	text-align:center;
+}
+.header-banner{
+	padding: 30px 0;
+}
+/*header area end*/
+
+/*body area start*/
+.body-wrapper{
+	overflow:hidden;
+}
+.sidebar{
+	width:30%;
+	height:400px;
+	float:left;
+
+}
+
+.body{
+	width:68%;
+	height:400px;
+	float:right;
+}
+/*body area end*/
+/*first layout end*/
+
+/*second layout start*/
+.header-wrapper2{
+	overflow:hidden;
+}
+.logo2, .nav2{
+	width:30%;
+	float:left;
+	height:50px;
+	background:#dfe6e9;
+}
+.nav2{
+	width:68%;
+	float:right;
+}
+.header-banner2, .intro-text2{
+	margin-top:10px;
+	padding:30px 0;
+	text-align:center;
+}
+/*box area start*/
+.box-wrapper2{
+	display:flex;
+	justify-content:space-between;
+	
+
+}
+.box{
+	width:32%;
+	background:#dfe6e9;
+	padding:100px 15px;
+	margin-right: 10px;
+
+
+}
+/*box area end*/
+.footer2{
+	margin-top: 10px;
+}
+/*second layout end*/
+
+/*third area start*/
+.logo3, .footer3{
+	background:#dfe6e9;
+	height:100px;
+	margin-bottom:10px;
+
+}
+.banner-wrapper3{
+	overflow:hidden;
+}
+.sidebar3{
+	width:30%;
+	float:left;
+
+}
+.header-banner3{
+	width:68%;
+	height:200px;
+	background:#dfe6e9;
+	float:right;
+	margin-bottom: 10px;
+}
+.body-area3{
+	width:68%;
+	height:200px;
+	background:#dfe6e9;
+	float:right;
+}
+.footer3{
+	margin-top:10px;
+}
+/*third area end*/
+
+/*fourth layout start*/
+.header-wrapper4{
+	overflow:hidden;
+}
+.logo4, .nav4{
+	width:30%;
+	float:left;
+	background: #dfe6e9;
+	padding:20px 0;
+}
+.nav4{
+	width:68%;
+	float:right;
+}
+
+/*service area start*/
+.service-wrapper{
+	display:flex;
+	justify-content:space-between;
+}
+.single-service, .single-box{
+	width:24%;
+	background: #dfe6e9;
+	margin:5px;
+	height:150px;
+}
+.single-box{
+	width:33%;
+	height:200px;
+	background:#dfe6e9;
+}
+.single-box h2{
+	text-align:center;
+}
+/*service area end*/
+
+footer{
+	background: #dfe6e9;
+	padding:20px;
+}
+/*fourth layout end*/
+
+
+
